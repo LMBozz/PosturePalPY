@@ -9,7 +9,6 @@ The goal of PosturePal is to help users maintain good posture without being disr
 ## Features
 - **Real-Time Posture Tracking**: Uses OpenCV and MediaPipe to analyze posture in real-time.
 - **Non-Intrusive Alerts**: Provides subtle reminders when posture needs adjusting.
-- **Adjustable Alert Timing**: Customize how long poor posture is tolerated before an alert is triggered.
 - **User-Friendly Interface**: Simple GUI built with Tkinter for easy interaction.
 
 ---
