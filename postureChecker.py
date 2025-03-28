@@ -6,13 +6,13 @@ import tkinter.messagebox as mb
 # ============================= Helper Functions =============================#
 
 def find_distance(x1, y1, x2, y2):
-    """Calculate the Euclidean distance between two points."""
+    """Calculate Euclidean distance between two points."""
     if None not in [x1, y1, x2, y2]:
         return m.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
     return None
 
 def find_angle(x1, y1, x2, y2):
-    """Calculate the inclination angle between two points."""
+    """Calculate inclination angle between two points."""
     if None not in [x1, y1, x2, y2] and y1 != 0:
         try:
             theta = m.acos((y2 - y1) * (-y1) / (m.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2) * y1))
@@ -26,7 +26,7 @@ def find_angle(x1, y1, x2, y2):
 good_frames, bad_frames = 0, 0  # Frame counters
 font = cv2.FONT_HERSHEY_SIMPLEX  # Font for text overlays
 
-# Colors for visual feedback
+# Colours for visual feedback
 COLORS = {
     "blue": (255, 127, 0), "red": (50, 50, 255), "green": (127, 255, 0),
     "dark_blue": (127, 20, 0), "light_green": (127, 233, 100),
