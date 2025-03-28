@@ -71,6 +71,7 @@ All required dependencies are listed in `requirements.txt`. Install them using t
 PosturePal/
 │-- postureChecker.py  # Main application file
 │-- requirements.txt   # List of required Python libraries
+│-- LICENSE.txt        # MIT License file
 ```
 
 ---
