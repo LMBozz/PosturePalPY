@@ -90,5 +90,3 @@ Contributions are welcome! Feel free to submit issues or pull requests to improv
 PosturePal is open-source and available under the **MIT License**.
 
 ---
-
-**Happy posture tracking!** 🧑‍💻✨
