@@ -77,7 +77,7 @@ PosturePal/
 ---
 
 ## Usage
-Once installed, simply run `postureChecker.py`, and the program will begin monitoring your posture in real time. Adjust the settings as needed to customize alert timing and sensitivity.
+Once installed, simply run `postureChecker.py`, and the program will begin monitoring your posture in real time.
 
 ---
 
